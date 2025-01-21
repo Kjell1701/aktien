@@ -1,1 +1,32 @@
----
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktien-Simulator</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #balance { margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Aktien-Simulator</h1>
+    <div id="balance">Kontostand: <strong>€10,000</strong></div>
+    <table>
+        <thead>
+            <tr>
+                <th>Aktie</th>
+                <th>Preis</th>
+                <th>Menge</th>
+                <th>Aktionen</th>
+            </tr>
+        </thead>
+        <tbody id="stocks">
+            <!-- Dynamischer Inhalt -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
